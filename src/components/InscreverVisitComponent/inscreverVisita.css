@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:wght@100..900&display=swap');
+
+
+
+#inscricaoContainer
+{
+    /*background-color: #FCFAFC; - branco*/
+    background-color: #000500ec;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+    height: 78.9vh;
+
+}
+
+#inscricao
+{
+    background-color: #000500;
+    padding: 3.5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height:70%;
+    justify-content: center;
+}
+
+#inscricao #inscricaoTitle span
+{
+    font-size: 25px;
+}
+
+#inscricaoTitle
+{
+    
+    font-weight: 700;
+    color: #F9D876;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+#form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#form input
+{
+    background-color: #fcfafcef;
+    border-radius: 5px;
+    border-color: #f3f3f300;
+    padding: .2rem .6rem;
+}
+
+#form span
+{
+    color: #F9D876;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.formInscricaoField
+{
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+    gap: 2.5px;
+}
+
+/*Styke para erro no input de cpf e email*/
+
+.invalidInput, .validInput
+{
+    text-align: right;
+  
+}
+
+.invalidInput span
+{
+    font-size: 14px;
+    color: #F8D055;
+}
+
+.validInput span
+{
+    font-size: 14px;
+    color: rgb(3, 177, 3);
+}

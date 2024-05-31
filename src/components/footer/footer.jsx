@@ -14,6 +14,8 @@ function Footer () {
       <div className="footer-content">
         <img className="logo" src={ExemploLogo} alt="Logo" />
 
+        <p id="copyright">Todos os direitos reservados &copy; 2024</p>
+        
         <div className="redes-links">
           <p className="redes-links_p-redes">Acompanhe Nossas Redes</p>
           <div className="redes-links_img-redes">
@@ -25,9 +27,10 @@ function Footer () {
             <a href=""><img src={telegram} alt="Telegram"/></a>
           </div>
         </div>
+        
       </div>
       
-      <p id="copyright">Todos os direitos reservados &copy; 2024</p>
+     
       
     </footer>
   );

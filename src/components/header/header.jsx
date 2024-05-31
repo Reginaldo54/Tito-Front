@@ -16,7 +16,8 @@ function Header()
         <div>
             <Login/>
             <div id='headerUpper'>
-
+            
+            <div id='align'>
                 <div id="headerSiteName">
                     <div
                     to='/'>
@@ -24,7 +25,7 @@ function Header()
                     </div>
                 </div>
 
-                <div id='align'>
+               
                     
                     <div 
                     id='headerHome'
