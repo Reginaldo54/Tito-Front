@@ -1,0 +1,171 @@
+header{
+    position: fixed;
+    background-color: #FCFAFC;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-size: 17px;
+    
+}
+
+/*===- Configuração básica dos butões -===*/
+
+/*===- Configuração da caixa acima da listra -===*/
+#headerUpper
+{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+    background-color: #000500;
+    margin-top: -61px;
+   
+}
+
+/*===- Alinhamento vertical para items da caixa acima da listra... -===*/
+.centralizeItems
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.headerScreenLinks  
+{
+    font-size: 17px;
+    text-decoration: none;
+    padding: .2rem .8rem;
+    background-color: #ff7c1e00;
+    color: #F9D876;
+    font-family: 'Inter', sans-serif;
+    line-height: 21.78px;
+    letter-spacing: -1.5%;
+    height: 30px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.headerScreenLinks:hover
+{
+    transition: .4s;
+    background-color: #FCFAFC;
+    color: #000500;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.headerScreenButtons:hover
+{
+    transition: .4s !important;
+    background-color: #ffa15d !important;
+    border-radius: 20px !important;
+}
+
+.headerIcon
+{
+    width: 35px; 
+    height: 35px;
+}
+
+.headerIcon:hover { color: #FCFAFC; }
+
+
+/*===- Botão parceiros -===*/
+#headerLogin, #headerParceiros
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.headerScreenButtons:hover{
+    background-color: red;
+}
+
+.headerScreenButtons:hover{
+    background-color: red;
+}
+
+#headerLogin
+{
+    cursor: pointer;
+    
+}
+
+
+
+/*===- Separando logo e o restante dos elementos para centralizá-los na tela sem que ele fiquem tronxos -===*/
+#align
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9px;
+    width: 80%;
+}
+
+
+
+#logo
+{
+    /* margin-left: 10px; */
+    width: 100%;
+    height: 4rem;
+}
+
+/*===- Listra divisora -===*/
+
+#headerHR
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*===- Botões das categorias/nichos -===*/
+#headerCategory
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.headerCategoryButtons
+{
+    padding: .01rem 1.5rem;
+    background-color: #ffa15d;
+    color: #ffffff;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    height: 25px;
+    transition: .2s;
+    scale: 1;
+}
+
+.headerCategoryButtons:hover
+{
+    transition: .35s;
+    background-color: #ffbe8f;
+    scale: 1.02;
+}
+
+
+@media screen and (max-width: 1200px){}
+
+@media screen and (max-width: 1024px){}
+
+@media screen and (max-width: 768px){
+    header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px){}
+
+@media screen and (max-width: 480px){}
+
+@media screen and (max-width: 320px){}
+
+@media screen and (max-width: 280px){}

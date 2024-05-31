@@ -1,0 +1,101 @@
+/*Titulo do Box e suas variações*/
+.titleBox {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 40px;
+    padding-top: 1rem;
+    text-align: center;
+    z-index: 1;
+}
+#titleBoxLaranja{ background-color: #FFE1CC; }
+#titleBoxRoxo{ background-color: #8A00DE; }
+#titleBoxPreto{  background-color: #000500; }
+
+/*H1 do Titulo do Box e suas variações*/
+.titleBox h1{ 
+    font-size: 30px; 
+}
+#titleBoxLaranja h1{ color: #8A00DE !important; }
+#titleBoxRoxo h1{ color: #FFC79E !important; }
+#titleBoxPreto h1{ color: #F9D876 !important; }
+
+/*Divisor e suas variações*/
+.divisor {
+    padding-top: 3rem;
+    width: 100%;
+    margin-top: -30px;
+}
+#divisorRoxo { background-color: #8A00DE; }
+#divisorLaranja { background-color: #FFE1CC; }
+#divisorPreto { background-color: #000500; 
+                border-top-left-radius: 20px; border-top-right-radius: 20px;}
+
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /*Para o efeito alcançar toda a pagina*/
+}
+
+/* RESPONSIVO */
+
+
+@media screen and (max-width: 1200px){
+    .titleBox h1{ 
+        font-size: 26px !important; 
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .titleBox h1{ 
+        font-size: 24px !important; 
+    }
+    .titleBox {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .titleBox h1{ 
+        font-size: 22px !important; 
+    }
+
+    .titleBox {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    
+}
+
+@media screen and (max-width: 480px){
+    .titleBox h1{ 
+        font-size: 20px !important; 
+    }
+    .titleBox {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+	
+}
+
+@media screen and (max-width: 320px){
+	
+}
+
+@media screen and (max-width: 280px){
+    .titleBox h1{ 
+        font-size: 18px !important; 
+    }
+    .titleBox {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+	
+}
