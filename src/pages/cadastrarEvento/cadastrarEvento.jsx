@@ -1,7 +1,7 @@
 import React from 'react';
-import "./cadastrarEvento.css"
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
+import CadastroEventoComponente from '../../components/cadastroEventoComponent/cadastroEvent';
 
 
 
@@ -12,19 +12,10 @@ function CadastrarEvento()
 
     return(
 
-        <div>
+        <div id='cadastroEventoContainer'>
             <Header/>
 
-            <main id='CadastroContainer'>
-
-                <form>
-
-                    
-                </form>
-
-
-            </main>
-
+            <CadastroEventoComponente/>
 
             <Footer/>
         </div>

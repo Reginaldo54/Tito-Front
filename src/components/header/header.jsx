@@ -3,7 +3,7 @@ import './header.css';
 import '../../index.css';
 import UserIconSvg from '../../assets/userIcon.svg';
 import ExemploLogo from '../../assets/exemploLogo.jpg';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Login, { ToggleModal } from '../../pages/login/login';
 
 function Header()
@@ -16,35 +16,34 @@ function Header()
         <div>
             <Login/>
             <div id='headerUpper'>
-
+            
+            <div id='align'>
                 <div id="headerSiteName">
-                    <div
+                    <Link
                     to='/'>
                         <img id='logo' src={ExemploLogo} alt="Logo do Impulsione Ai, onde a letra i é no formato de uma mola" /> 
-                    </div>
+                    </Link>
                 </div>
 
-                <div id='align'>
+               
                     
-                    <div 
+                    <Link
                     id='headerHome'
                     className="headerScreenLinks"
                     to='/'
-                    >Todas visitas</div>
+                    >Todas visitas</Link>
 
-                    <div 
+                    <Link 
                     id='headerSobre'
                     className="headerScreenLinks"
                     to='/inscreverVisita'
-                    >Inscrever na visita</div>
+                    >Inscrever na visita</Link>
 
-                    <div 
+                    <Link 
                     id='headerSobre'
                     className="headerScreenLinks"
                     to='/cadastrarEvento'
-                    >Cadastrar Evento</div>
-                 
-
+                    >Cadastrar Evento</Link>
 
                     <div
                     id='headerLogin'
